@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+/* border: 1px solid black; */
+    
+}
+html
+{
+    font-family: 'roboto',sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 20px;
+    
+}
+/*   top head text */
+.top-text
+{
+    font-family: 'roboto',sans-serif;
+    font-weight:300;
+    color: white;
+    font-size:12px ;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(35, 57, 155, 0.911);
+}
+.container
+{
+    display: flex;
+    margin: auto;
+    flex-direction: row-reverse;
+}
+/*  head  logo and input */
+.logo1
+{
+    width: 120px;
+    padding: 10px;
+    margin:auto ;
+}
+.top
+{
+    margin-bottom:20px;
+}
+.item1-flex
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+input[type=text] 
+{
+    width:100%;
+    box-sizing: border-box;
+    border:1px solid rgba(35, 57, 155, 0.911) ;
+    outline: none;
+    color:rgba(35, 57, 155, 0.911) ;
+    padding: 5px;
+    
+}
+::placeholder {
+    color: rgba(35, 57, 155, 0.911);
+    text-transform: capitalize;
+
+  }
+
+  .item1-flex ion-icon {
+    color: white;
+    background-color:rgba(35, 57, 155, 0.911);
+    padding:5px;
+    border-top-right-radius:3px ;
+    border-bottom-right-radius:3px ;
+}
+
+/*  top 3 icons*/
+
+.item-2
+{
+    display:flex;
+    align-items: flex-end;
+    margin: 15px;
+    width: 25%;
+    font-weight:400;
+    font-size:18px;
+    color:rgba(35, 57, 155, 0.911);
+
+}
+.item-2 div
+{
+    padding: 0 10px;
+}
+
+/*  TOP NAV */
+
+header-section ul
+{
+    list-style: none;
+    color: white;
+    background-color:rgba(35, 57, 155, 0.911);
+    padding-top:15px;
+    padding-bottom:15px ;
+    padding-left:200px;
+}
+header-section li
+{ 
+display: inline;
+text-transform:uppercase;
+word-spacing: 3px;
+font-size:15px ;
+padding-right:150px;
+font-weight: 500;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/*  SIDE NAV */
+.right-body
+{ position:absolute;
+  left:22%;
+}
+body-section
+{
+    color: rgba(35, 57, 155, 0.911);
+    font-weight:300 ;
+    font-size: 15px;
+    display:flex;
+
+}
+body-section p
+{
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-bottom:10px;
+    border-bottom: 1px solid rgba(35, 57, 155, 0.911);
+
+    
+   
+}
+.side-nav
+{
+    list-style: none;
+   width:150%;
+    /* width:100%; */
+}
+.side-nav ul
+{
+    list-style: none;
+    margin-left: 50px;
+    padding-right: 10px;
+}
+.side-nav li{
+    padding-top:10px ;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+    color: rgba(37, 68, 107, 0.664);
+    font-size: 12px;
+    font-weight :300;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.cloth-section
+{
+    width: 70%;
+    padding:1px;
+    margin-top:50px ;
+    display: flex;
+
+}
+.cloth-section div
+{
+    padding-right: 20px;
+}
+.cloth-section img
+{
+    width:300px;
+}
+.shirt div
+{
+    padding:3px;
+}
+.view
+{
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin: 15px;
+    border: 2px solid rgba(35, 57, 155, 0.911);
+}
+.heart
+{
+margin-left:290px;
+width:30px;
+}
+footer-section
+{
+    display: block;
+    width: 100%;
+    /* height: 250px; */
+    background-color: rgba(35, 57, 155, 0.911);
+    margin-top: 1100px;
+    padding:50px 100px;
+}
+footer-section p
+{
+    color: white;
+    text-transform:uppercase;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+footer-section ul
+{
+    list-style: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-right: 100px;
+
+}
+footer-section li
+{
+    padding: 5px;
+}
